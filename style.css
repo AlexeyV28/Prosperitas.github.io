@@ -504,7 +504,7 @@ text-align: center;
 }
 .redbg
 {
-    background-image: url(./black.jpg) !important;
+    background-image: url(./black.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
