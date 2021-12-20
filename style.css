@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Italianno&family=Lato:wght@100;300;400;700;900&family=Racing+Sans+One&display=swap');
 
-/* font-family: 'Italianno', cursive;
-font-family: 'Lato', sans-serif;
-font-family: 'Racing Sans One', cursive; */
 *{
     margin: 0; padding: 0; box-sizing: border-box; scroll-behavior: smooth; scrollbar-width: none
 }
@@ -539,6 +536,11 @@ textarea{resize: none;}
 {
     color:rgba(237, 245, 255, 0.8);
 }
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
 .form .inputBox textarea
 {
     width: 100%;
@@ -742,14 +744,6 @@ margin-top: 29px;
       margin-top: 40px;
     }
 }
-@media(max-width:600px)
-{
-    .testimonials .container .contentBox {
-        width: 280px;
-        height: auto;
-   
-    }
-}
 @media(max-width:604px)
 {
     .clients .imageBox {
@@ -779,6 +773,20 @@ margin-top: 29px;
        
         }
 }
+    @media(max-width:600px)
+    {
+    .testimonials .container .contentBox {
+    width: 280px;
+    height: auto;
+
+    }
+    .banner .content p {
+
+    padding: 0px}
+
+
+    }
+
 @media(max-width:400px)
 {
     .testimonials .container .contentBox {
@@ -837,12 +845,27 @@ margin-top: 29px;
                 padding: 20px 30px;
             }
 }
-@media(max-width:600px){
-    .banner .content p {
-    
-        padding: 0px}
 
+@media(min-width:1500px) {
+
+    element.style {
+    }
+    .technology {
+
+        justify-content: center;
+    
+    }
+    .clients .imageBox {
+   
+        justify-content: center;
+  
 }
+.clients .imageBox img {
+    margin: 40px;
+ 
+}
+}
+
 @media(min-width:1500px) {
 
     element.style {
