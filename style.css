@@ -624,18 +624,21 @@
         }
     } 
     @media(max-height:428px)
-    {    .sidebar ul li a{
-     
-        font-size: 15px;
- 
-        }
-        .sidebar ul
-        {
-            margin-top: 70px;
-        }
-        header.sticky{
-            background:transparent
+    {    
+    .sidebar ul li a
+    {
+    font-size: 15px;
+
+    }
+    .sidebar ul
+    {
+    margin-top: 70px;
+    }
+    header,header.sticky
+    {
+    height: 28px;
     } 
+    }
     @media(max-width:1199px)
     {
     .testimonials .container {
